@@ -1,0 +1,43 @@
+{
+    "generated_at": "2026-02-26 22:46:08",
+    "executive_summary": {
+        "top_product": "Laptop",
+        "top_revenue": 512000.0,
+        "lowest_product": "Keyboard",
+        "lowest_revenue": 96000.0,
+        "overall_quantity": 45,
+        "overall_revenue": 733000.0
+    },
+    "product_performance": [
+        {
+            "product": "Laptop",
+            "total_quantity": 8,
+            "total_revenue": 512000.0
+        },
+        {
+            "product": "Mouse",
+            "total_quantity": 25,
+            "total_revenue": 125000.0
+        },
+        {
+            "product": "Keyboard",
+            "total_quantity": 12,
+            "total_revenue": 96000.0
+        }
+    ],
+    "daily_trends": [
+        {
+            "from": "2026-02-01",
+            "to": "2026-02-02",
+            "percentage_change": -32.97,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2026-02-02",
+            "to": "2026-02-03",
+            "percentage_change": -53.63,
+            "insight": "Significant revenue drop. Immediate attention required."
+        }
+    ],
+    "next_day_prediction": 0
+}
