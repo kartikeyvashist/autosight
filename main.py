@@ -2,9 +2,12 @@ from db import get_connection
 from ingestion import ingest_csv
 from analysis import analyze_daily_trend, predict_next_day_revenue
 from reporting import export_report
+from Visualization import generate_revenue_chart
+from logger_config import setup_logger
 
+logger = setup_logger()
 def main():
-
+    logger.info("Starting Autosight Pipeline")
     connection = get_connection()
     cursor = connection.cursor()
 
@@ -43,10 +46,11 @@ def main():
     # 5️ Analysis
     trend_results = analyze_daily_trend(daily_data)
     prediction = predict_next_day_revenue(daily_data)
+    generate_revenue_chart(daily_data)
 
     # 6️ Export JSON Report
     export_report(product_records, overall_data, trend_results, prediction)
-
+    
     cursor.close()
     connection.close()
 

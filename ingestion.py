@@ -1,12 +1,14 @@
 import csv
+import logging
+
+logger = logging.getLogger(__name__)
 
 # Ingestion file csv in
 
 def ingest_csv(cursor, connection, file_path="sales_data.csv"):
-
 #   we have created a default function ingest_csv named took cursor, connection(from db) and file path then we will give
 #   name same as the file named sales_data.csv in our case
-
+    logger.info("Getting data from the CSV")
     cursor.execute("DELETE FROM sales_data;")           #   cursor is is the class which contain sevral functions so we used execute function.                                                       #    
     connection.commit()                                 #   here we can write our SQL queries in cursor.execute function.
 
@@ -25,4 +27,4 @@ def ingest_csv(cursor, connection, file_path="sales_data.csv"):
             ))
 
     connection.commit()
-    print("CSV data inserted successfully.")
+    logger.info("CSV data inserted successfully.")

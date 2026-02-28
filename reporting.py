@@ -1,8 +1,10 @@
 import json
 from datetime import datetime
+import logging
+logger = logging.getLogger(__name__)
 
 def export_report(product_data, overall_data, trend_data, prediction):
-
+    logger.info("Starting generating Report")
     report = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
 
@@ -32,4 +34,4 @@ def export_report(product_data, overall_data, trend_data, prediction):
     with open("report.json", "w") as f:
         json.dump(report, f, indent=4)
 
-    print("Report exported successfully → report.json")
+    logger.info("Report exported successfully → report.json")
