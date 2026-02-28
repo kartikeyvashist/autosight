@@ -1,26 +1,23 @@
-##📌 About The Project
+# 🚀 AutoSight
+
+# 📌 About The Project
+
 AutoSight is a Python-based modular sales analytics engine that:
 
-    Connects to a PostgreSQL database
-
-    Ingests CSV sales data
-
-    Performs revenue aggregation
-
-    Analyzes daily revenue trends
-
-    Predicts next-day revenue
-
-    Generates revenue visualization charts
-
-    Exports executive-ready JSON reports
-
-    Maintains structured logging
+- Connects to a PostgreSQL database
+- Ingests CSV sales data
+- Performs revenue aggregation
+- Analyzes daily revenue trends
+- Predicts next-day revenue
+- Generates revenue visualization charts
+- Exports executive-ready JSON reports
+- Maintains structured logging
 
 This project demonstrates backend data pipeline architecture and analytical workflow design.
 
-##🏗 Architecture Overview
+## 🏗 Architecture Overview
 
+```bash
 autosight_project/
 │
 ├── main.py              → Orchestrator
@@ -33,116 +30,98 @@ autosight_project/
 ├── .env                 → Environment variables (ignored)
 ├── autosight.log        → Runtime logs
 └── README.md
+```
+---
+
 
 Each module follows single-responsibility principle.
 
-##📊 Features Implemented
-#🔹 Data Ingestion
+## 📊 Features Implemented
 
-    Reads CSV data
+### 🔹 Data Ingestion
 
-    Inserts into PostgreSQL
+- Reads CSV data
+- Inserts into PostgreSQL
 
-#🔹 Revenue Analytics
+### 🔹 Revenue Analytics
 
-    Product-wise revenue
+- Product-wise revenue
+- Overall performance metrics
+- Daily revenue aggregation
 
-    Overall performance metrics
+### 🔹 Trend Analysis
 
-    Daily revenue aggregation
+- Percentage-based revenue change detection
+- Categorized into:
+- Strong Growth
+- Moderate Growth
+- Decline
 
-#🔹 Trend Analysis
+### 🔹 Revenue Prediction
 
-    Percentage-based revenue change detection
+- Moving-average based logic
+- Handles zero-division safely
+- Uses recent data for stability
 
-    Categorized into:
+### 🔹 Visualization
 
-    Strong Growth
+- Line chart of daily revenue
+- Output: revenue.png
 
-    Moderate Growth
+### 🔹 JSON Reporting
 
-    Decline
-
-#🔹 Revenue Prediction
-
-    Moving-average based logic
-
-    Handles zero-division safely
-
-    Uses recent data for stability
-
-#🔹 Visualization
-
-    Line chart of daily revenue
-
-    Output: revenue.png
-
-#🔹 JSON Reporting
-
-Exports structured:
-
-report.json
+- Exports structured:
+- report.json
 
 Includes:
 
-    Executive summary
+- Executive summary
+- Product performance
+- Trend insights
+- Predicted revenue
 
-    Product performance
+### 🔹 Logging
 
-    Trend insights
+- Centralized logging system
+- Logs saved in autosight.log
+- Tracks pipeline steps & errors
 
-    Predicted revenue
+### 🛠 Tech Stack
 
-#🔹 Logging
+- Python 3.13
+- PostgreSQL
+- psycopg2
+- matplotlib
+- python-dotenv
+- Git & GitHub
 
-    Centralized logging system
+## ▶️ How To Run
 
-    Logs saved in autosight.log
-
-    Tracks pipeline steps & errors
-
-##🛠 Tech Stack
-
-    Python 3.13
-
-    PostgreSQL
-
-    psycopg2
-
-    matplotlib
-
-    python-dotenv
-
-    Git & GitHub
-
-##▶️ How To Run
-
-#1️⃣ Clone repository
-
+### 1️⃣ Clone repository
+``` bash
 git clone https://github.com/kartikeyvashist/autosight.git
 cd autosight
+```
 
-#2️⃣ Create .env
+### 2️⃣ Create .env
+``` bash
     DB_HOST=localhost
     DB_NAME=autoinsight_db
     DB_USER=postgres
     DB_PASSWORD=your_password
     DB_PORT=5432
-#3️⃣ Install dependencies
+```
+### 3️⃣ Install dependencies
 
-    pip install -r requirements.txt
+- pip install -r requirements.txt
 
-#4️⃣ Run pipeline
+### 4️⃣ Run pipeline
+- python main.py
 
-    python main.py
+## 📈 Project Status
 
-##📈 Project Status
-
-#🟡 In Progress
+## 🟡 In Progress
 Currently improving:
-
-    Prediction logic
-
-    Architecture robustness
-
-    Data visualization enhancements
+- Prediction logic
+- Architecture robustness
+- Data visualization enhancements
