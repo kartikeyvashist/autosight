@@ -1,143 +1,148 @@
-AutoSight – Sales Analytics Engine
-Overview
-AutoSight is a modular Python-based sales analytics engine that:
-Connects to PostgreSQL database
-Ingests CSV sales data
-Performs revenue aggregation
-Analyzes daily revenue trends
-Predicts next-day revenue (basic moving-average model)
-Generates revenue visualization charts
-Exports structured executive-ready JSON reports
-Logs all operations into a centralized log file
-This project demonstrates backend data pipeline architecture and analytics workflow implementation.
-Architecture
-AutoSight follows a modular structure:
+##📌 About The Project
+AutoSight is a Python-based modular sales analytics engine that:
+
+    Connects to a PostgreSQL database
+
+    Ingests CSV sales data
+
+    Performs revenue aggregation
+
+    Analyzes daily revenue trends
+
+    Predicts next-day revenue
+
+    Generates revenue visualization charts
+
+    Exports executive-ready JSON reports
+
+    Maintains structured logging
+
+This project demonstrates backend data pipeline architecture and analytical workflow design.
+
+##🏗 Architecture Overview
+
 autosight_project/
 │
-├── main.py              # Orchestrator
-├── db.py                # Database connection logic
-├── ingestion.py         # CSV ingestion layer
-├── analysis.py          # Trend & prediction logic
-├── visualization.py     # Revenue chart generation
-├── reporting.py         # JSON export layer
-├── logger_config.py     # Logging configuration
-├── .env                 # Environment variables (not committed)
-├── .gitignore
+├── main.py              → Orchestrator
+├── db.py                → Database connection
+├── ingestion.py         → CSV ingestion layer
+├── analysis.py          → Trend & prediction logic
+├── visualization.py     → Revenue charts
+├── reporting.py         → JSON export layer
+├── logger_config.py     → Logging configuration
+├── .env                 → Environment variables (ignored)
+├── autosight.log        → Runtime logs
 └── README.md
 
-Each module handles a single responsibility.
+Each module follows single-responsibility principle.
 
-Features
-1. Data Ingestion
+##📊 Features Implemented
+#🔹 Data Ingestion
 
-Reads CSV sales data and inserts it into PostgreSQL.
+    Reads CSV data
 
-2. Revenue Analytics
+    Inserts into PostgreSQL
 
-Product-wise revenue aggregation
+#🔹 Revenue Analytics
 
-Overall performance metrics
+    Product-wise revenue
 
-Daily revenue grouping
+    Overall performance metrics
 
-3. Trend Analysis
+    Daily revenue aggregation
 
-Percentage-based daily change detection
+#🔹 Trend Analysis
 
-Categorized as:
+    Percentage-based revenue change detection
 
-Strong Growth
+    Categorized into:
 
-Moderate Growth
+    Strong Growth
 
-Decline
+    Moderate Growth
 
-4. Revenue Prediction
+    Decline
 
-Moving-average based prediction
+#🔹 Revenue Prediction
 
-Handles zero-division edge cases
+    Moving-average based logic
 
-Uses recent revenue changes for stability
+    Handles zero-division safely
 
-5. Visualization
+    Uses recent data for stability
 
-Line chart of daily revenue
+#🔹 Visualization
 
-Saved as revenue.png
+    Line chart of daily revenue
 
-6. Reporting
+    Output: revenue.png
 
-Exports structured JSON:
+#🔹 JSON Reporting
+
+Exports structured:
 
 report.json
 
 Includes:
 
-Executive summary
+    Executive summary
 
-Product performance
+    Product performance
 
-Trend analysis
+    Trend insights
 
-Predicted revenue
+    Predicted revenue
 
-7. Logging
+#🔹 Logging
 
-Centralized logging via Python logging
+    Centralized logging system
 
-Logs saved in autosight.log
+    Logs saved in autosight.log
 
-Tracks pipeline steps & errors
+    Tracks pipeline steps & errors
 
-Technologies Used
+##🛠 Tech Stack
 
-Python 3.13
+    Python 3.13
 
-PostgreSQL
+    PostgreSQL
 
-psycopg2
+    psycopg2
 
-matplotlib
+    matplotlib
 
-python-dotenv
+    python-dotenv
 
-Git & GitHub
+    Git & GitHub
 
-How to Run
+##▶️ How To Run
 
-Clone the repository
+#1️⃣ Clone repository
 
 git clone https://github.com/kartikeyvashist/autosight.git
 cd autosight
 
-Create .env file
+#2️⃣ Create .env
+    DB_HOST=localhost
+    DB_NAME=autoinsight_db
+    DB_USER=postgres
+    DB_PASSWORD=your_password
+    DB_PORT=5432
+#3️⃣ Install dependencies
 
-DB_HOST=localhost
-DB_NAME=autoinsight_db
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_PORT=5432
+    pip install -r requirements.txt
 
-Install dependencies
+#4️⃣ Run pipeline
 
-pip install -r requirements.txt
+    python main.py
 
-Run the pipeline
+##📈 Project Status
 
-python main.py
-Project Status
+#🟡 In Progress
+Currently improving:
 
-In Progress – Actively improving architecture, analytics logic, and prediction accuracy.
+    Prediction logic
 
-Future Improvements
+    Architecture robustness
 
-Advanced forecasting models
-
-REST API layer
-
-Web dashboard interface
-
-Automated scheduled ingestion
-
-Docker containerization
+    Data visualization enhancements
