@@ -1,43 +1,215 @@
 {
-    "generated_at": "2026-02-28 22:13:26",
+    "generated_at": "2026-03-01 23:26:28",
     "executive_summary": {
         "top_product": "Laptop",
-        "top_revenue": 512000.0,
-        "lowest_product": "Keyboard",
-        "lowest_revenue": 96000.0,
-        "overall_quantity": 45,
-        "overall_revenue": 733000.0
+        "top_revenue": 39237200.0,
+        "lowest_product": "Mouse",
+        "lowest_revenue": 703762.0,
+        "overall_quantity": 3610,
+        "overall_revenue": 55496873.0
     },
     "product_performance": [
         {
             "product": "Laptop",
-            "total_quantity": 8,
-            "total_revenue": 512000.0
+            "total_quantity": 667,
+            "total_revenue": 39237200.0
         },
         {
-            "product": "Mouse",
-            "total_quantity": 25,
-            "total_revenue": 125000.0
+            "product": "Monitor",
+            "total_quantity": 698,
+            "total_revenue": 10528577.0
+        },
+        {
+            "product": "Headphones",
+            "total_quantity": 768,
+            "total_revenue": 2958538.0
         },
         {
             "product": "Keyboard",
-            "total_quantity": 12,
-            "total_revenue": 96000.0
+            "total_quantity": 745,
+            "total_revenue": 2068796.0
+        },
+        {
+            "product": "Mouse",
+            "total_quantity": 732,
+            "total_revenue": 703762.0
         }
     ],
     "daily_trends": [
         {
-            "from": "2026-02-01",
-            "to": "2026-02-02",
-            "percentage_change": -32.97,
+            "from": "2025-01-01",
+            "to": "2025-01-02",
+            "percentage_change": 43.6,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-02",
+            "to": "2025-01-03",
+            "percentage_change": -69.45,
             "insight": "Significant revenue drop. Immediate attention required."
         },
         {
-            "from": "2026-02-02",
-            "to": "2026-02-03",
-            "percentage_change": -53.63,
+            "from": "2025-01-03",
+            "to": "2025-01-04",
+            "percentage_change": 297.52,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-04",
+            "to": "2025-01-05",
+            "percentage_change": -54.12,
             "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-05",
+            "to": "2025-01-06",
+            "percentage_change": 47.99,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-06",
+            "to": "2025-01-07",
+            "percentage_change": -43.01,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-07",
+            "to": "2025-01-08",
+            "percentage_change": -9.85,
+            "insight": "Slight revenue decline."
+        },
+        {
+            "from": "2025-01-08",
+            "to": "2025-01-09",
+            "percentage_change": 113.44,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-09",
+            "to": "2025-01-10",
+            "percentage_change": -63.34,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-10",
+            "to": "2025-01-11",
+            "percentage_change": 205.86,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-11",
+            "to": "2025-01-12",
+            "percentage_change": -65.16,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-12",
+            "to": "2025-01-13",
+            "percentage_change": 148.11,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-13",
+            "to": "2025-01-14",
+            "percentage_change": -0.01,
+            "insight": "Slight revenue decline."
+        },
+        {
+            "from": "2025-01-14",
+            "to": "2025-01-15",
+            "percentage_change": 46.15,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-15",
+            "to": "2025-01-16",
+            "percentage_change": -64.14,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-16",
+            "to": "2025-01-17",
+            "percentage_change": -18.71,
+            "insight": "Slight revenue decline."
+        },
+        {
+            "from": "2025-01-17",
+            "to": "2025-01-18",
+            "percentage_change": 60.42,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-18",
+            "to": "2025-01-19",
+            "percentage_change": 36.34,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-19",
+            "to": "2025-01-20",
+            "percentage_change": 24.59,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-20",
+            "to": "2025-01-21",
+            "percentage_change": -41.65,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-21",
+            "to": "2025-01-22",
+            "percentage_change": 72.55,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-22",
+            "to": "2025-01-23",
+            "percentage_change": -54.89,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-23",
+            "to": "2025-01-24",
+            "percentage_change": 45.32,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-24",
+            "to": "2025-01-25",
+            "percentage_change": -13.95,
+            "insight": "Slight revenue decline."
+        },
+        {
+            "from": "2025-01-25",
+            "to": "2025-01-26",
+            "percentage_change": 68.58,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-26",
+            "to": "2025-01-27",
+            "percentage_change": -42.5,
+            "insight": "Significant revenue drop. Immediate attention required."
+        },
+        {
+            "from": "2025-01-27",
+            "to": "2025-01-28",
+            "percentage_change": 46.21,
+            "insight": "Strong upward growth detected."
+        },
+        {
+            "from": "2025-01-28",
+            "to": "2025-01-29",
+            "percentage_change": -7.15,
+            "insight": "Slight revenue decline."
+        },
+        {
+            "from": "2025-01-29",
+            "to": "2025-01-30",
+            "percentage_change": 50.49,
+            "insight": "Strong upward growth detected."
         }
     ],
-    "next_day_prediction": 0
+    "next_day_prediction": 3231155.0
 }

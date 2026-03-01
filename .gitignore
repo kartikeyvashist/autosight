@@ -1,3 +1,5 @@
 .env
 __pycache__/
+*.pyc
 autosight.db
+predicted_revenue.csv

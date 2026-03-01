@@ -278,3 +278,103 @@
 2026-02-28 22:13:26,558 - INFO - revenue chart saved as revenue.png
 2026-02-28 22:13:26,558 - INFO - Starting generating Report
 2026-02-28 22:13:26,561 - INFO - Report exported successfully \u2192 report.json
+2026-03-01 14:58:14,915 - INFO - Starting Autosight Pipeline
+2026-03-01 14:58:14,974 - INFO - Connected to DB
+2026-03-01 14:58:14,974 - INFO - Getting data from the CSV
+2026-03-01 14:58:15,000 - INFO - CSV data inserted successfully.
+2026-03-01 14:58:15,003 - INFO - Starting Daily trends analysis
+2026-03-01 14:58:15,003 - INFO - Daily trend analysis completed successfully
+2026-03-01 14:58:15,003 - INFO - starting predicting revenue
+2026-03-01 14:58:15,004 - INFO - Predicting generated: 282952.8816666667
+2026-03-01 14:58:15,004 - INFO - Starting generating graph
+2026-03-01 14:58:15,572 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,575 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,661 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,663 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,697 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,698 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,753 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,754 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 14:58:15,799 - INFO - revenue chart saved as revenue.png
+2026-03-01 14:58:15,800 - INFO - Starting generating Report
+2026-03-01 14:58:15,803 - INFO - Report exported successfully \u2192 report.json
+2026-03-01 15:07:01,734 - INFO - Starting Autosight Pipeline
+2026-03-01 15:07:01,844 - INFO - Connected to DB
+2026-03-01 15:07:01,844 - INFO - Getting data from the CSV
+2026-03-01 15:07:01,888 - INFO - CSV data inserted successfully.
+2026-03-01 15:07:01,893 - INFO - Starting Daily trends analysis
+2026-03-01 15:07:01,894 - INFO - Daily trend analysis completed successfully
+2026-03-01 15:07:01,894 - INFO - starting predicting revenue
+2026-03-01 15:07:01,894 - INFO - Predicting generated: 3433770.0
+2026-03-01 15:07:01,894 - INFO - Starting generating graph
+2026-03-01 15:07:02,165 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,167 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,228 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,230 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,264 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,265 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,315 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,316 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:07:02,370 - INFO - revenue chart saved as revenue.png
+2026-03-01 15:07:02,371 - INFO - Starting generating Report
+2026-03-01 15:07:02,373 - INFO - Report exported successfully \u2192 report.json
+2026-03-01 15:20:03,406 - INFO - Starting Autosight Pipeline
+2026-03-01 15:20:03,463 - INFO - Connected to DB
+2026-03-01 15:20:03,464 - INFO - Getting data from the CSV
+2026-03-01 15:20:03,523 - INFO - CSV data inserted successfully.
+2026-03-01 15:20:03,529 - INFO - Starting Daily trends analysis
+2026-03-01 15:20:03,529 - INFO - Daily trend analysis completed successfully
+2026-03-01 15:20:03,529 - INFO - starting predicting revenue
+2026-03-01 15:20:03,529 - INFO - Predicting generated: 3231155.0
+2026-03-01 15:20:03,529 - INFO - Starting generating graph
+2026-03-01 15:20:03,797 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,798 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,862 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,863 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,897 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,898 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,946 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,946 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 15:20:03,993 - INFO - revenue chart saved as revenue.png
+2026-03-01 15:20:03,993 - INFO - Starting generating Report
+2026-03-01 15:20:03,996 - INFO - Report exported successfully \u2192 report.json
+2026-03-01 22:55:40,725 - INFO - Starting Autosight Pipeline
+2026-03-01 22:55:40,809 - INFO - Connected to DB
+2026-03-01 22:55:40,809 - INFO - Getting data from the CSV
+2026-03-01 22:55:40,877 - INFO - CSV data inserted successfully.
+2026-03-01 22:55:40,886 - INFO - Starting Daily trends analysis
+2026-03-01 22:55:40,886 - INFO - Daily trend analysis completed successfully
+2026-03-01 22:55:40,886 - INFO - starting predicting revenue
+2026-03-01 22:55:40,887 - INFO - Predicting generated: 3231155.0
+2026-03-01 22:55:40,887 - INFO - Starting generating graph
+2026-03-01 22:55:41,601 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,603 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,695 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,696 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,738 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,739 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,798 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,799 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 22:55:41,842 - INFO - revenue chart saved as revenue.png
+2026-03-01 22:55:41,843 - INFO - Starting generating Report
+2026-03-01 22:55:41,849 - INFO - Report exported successfully \u2192 report.json
+2026-03-01 23:26:27,863 - INFO - Starting Autosight Pipeline
+2026-03-01 23:26:27,959 - INFO - Connected to DB
+2026-03-01 23:26:27,959 - INFO - Getting data from the CSV
+2026-03-01 23:26:28,058 - INFO - CSV data inserted successfully.
+2026-03-01 23:26:28,066 - INFO - Starting Daily trends analysis
+2026-03-01 23:26:28,067 - INFO - Daily trend analysis completed successfully
+2026-03-01 23:26:28,067 - INFO - starting predicting revenue
+2026-03-01 23:26:28,068 - INFO - Predicting generated: 3231155.0
+2026-03-01 23:26:28,068 - INFO - Starting generating graph
+2026-03-01 23:26:28,479 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,481 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,554 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,555 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,596 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,596 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,655 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,656 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-03-01 23:26:28,697 - INFO - revenue chart saved as revenue.png
+2026-03-01 23:26:28,697 - INFO - Starting generating Report
+2026-03-01 23:26:28,705 - INFO - Report exported successfully \u2192 report.json

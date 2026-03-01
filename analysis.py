@@ -1,4 +1,5 @@
 import logging
+import csv
 logger = logging.getLogger(__name__)
 def analyze_daily_trend(daily_data):
     logger.info("Starting Daily trends analysis")
@@ -41,22 +42,29 @@ def analyze_daily_trend(daily_data):
     return trend_results    #   now we just simply return our trend result list outside the function
 
 
-def predict_next_day_revenue(daily_data):       #   in data-engineering models according to F-ML predicting next day revenue is possible mathametically     
-    logger.info("starting predicting revenue")                    
+def predict_next_day_revenue(daily_data):       #   in data-engineering models according to F-ML predicting next day revenue is possible mathametically
+    logger.info("starting predicting revenue") 
+    if len(daily_data) < 6:
+        return 0                        
     revenues = [float(day[1]) for day in daily_data]    #   so we created revenue varible and store only the date and we know our daily data is in daily data function
+    
+    changes = [revenues[i] - revenues[i-1] for i in range(1, len(revenues))]
+    
+    recent_changes = changes[-5:] if len(changes) >= 5 else changes
 
-    if len(revenues) < 2:
-        return "Not enough data"
+    weights = list(range(1, len(recent_changes) +1))
 
-    changes = []
-    for i in range(1, len(revenues)):
-        changes.append(revenues[i] - revenues[i - 1])
-    recent_changes = changes[-2:] if len(changes) >= 2 else changes
-    avg_change = sum(recent_changes) / len(recent_changes)
-    predicted_revenue = revenues[-1] + avg_change
+    weighted_sum = sum(change * weight for change, weight in zip(recent_changes, weights))
+    weighted_avg_change = weighted_sum / sum(weights)
 
-    if predicted_revenue < 0:
-        predicted_revenue = 0
+    predicted_revenue = revenues[-1] + weighted_avg_change
 
+    predicted_revenue = max(predicted_revenue, 0)
+
+    with open("predicted_revenue.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["predicted_next_day"])
+        writer.writerow([predicted_revenue])
+    
     logger.info(f"Predicting generated: {predicted_revenue}")
     return round(predicted_revenue, 2)
