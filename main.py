@@ -46,7 +46,7 @@ def main():
     # 4️ Daily Revenue
     cursor.execute("""
         SELECT sale_date,
-               SUM(quantity * price)
+            SUM(quantity * price)
         FROM sales_data
         GROUP BY sale_date
         ORDER BY sale_date;

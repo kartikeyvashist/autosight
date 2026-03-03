@@ -10,8 +10,8 @@ products = {
     "Headphones": (2000, 6000)
 }
 
-start_date = datetime(2025, 1, 1)
-rows = []
+start_date = datetime(2025, 1, 1)       #   Declare initial Date Varible
+rows = []                               #   Row List where wee will store our date, product, quantity, price
 
 for i in range(30):
     date = start_date + timedelta(days=i)

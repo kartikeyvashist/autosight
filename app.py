@@ -35,8 +35,16 @@ def summary():
         GROUP BY product_name
         ORDER BY SUM(quantity*price) DESC;        
 """)
-    data = cursor.fetchall()
-    return jsonify(data)
+    rows = cursor.fetchall()
+
+    result = []
+    for row in rows:
+        result.append({
+            "product": row[0],
+            "total_quantity": row[1],
+            "total_revenue": float(float(row[2]))
+        })
+    return jsonify(result)
 @app.route("/full-report")
 def full_report():
     connection = get_connection()
