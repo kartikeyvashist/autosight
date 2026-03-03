@@ -130,3 +130,30 @@ Currently improving:
 - Prediction logic
 - Architecture robustness
 - Data visualization enhancements
+
+## 📊 A Power BI Dashboard
+
+report (`AutoSight.pbix`) is included for visual exploration of the sales data.
+
+## 📸 Sample Output
+
+<img src="./assets/Dashboard_Overview.png" width="700">
+
+## 📸 Screenshots
+
+### Flask API
+
+#### - Full Report
+
+<img src="./assets/Full-report.png" width="700">
+
+#### - Prediction 
+
+<img src="./assets/Prediction.png" width="700">
+
+#### - Summary
+
+<img src="./assets/Summary.png" width="700">
+
+
+ 
