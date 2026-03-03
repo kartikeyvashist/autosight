@@ -1,6 +1,6 @@
 # 🚀 AutoSight
 
-# 📌 About The Project
+## 📌 About The Project
 
 AutoSight is a Python-based modular sales analytics engine that:
 
@@ -113,10 +113,15 @@ cd autosight
 ```
 ### 3️⃣ Install dependencies
 
-- pip install -r requirements.txt
+``` bash
+pip install -r requirements.txt
 
+```
 ### 4️⃣ Run pipeline
-- python main.py
+``` bash
+python main.py
+
+```
 
 ## 📈 Project Status
 
