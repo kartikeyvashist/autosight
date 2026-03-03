@@ -1,21 +1,27 @@
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import logging
+from datetime import datetime
 logger = logging.getLogger(__name__)
 
 def generate_revenue_chart(daily_data):
     logger.info("Starting generating graph")
-    dates = [str(row[0]) for row in daily_data]
+    dates = [datetime.strptime(str(row[0]), "%Y-%m-%d") for row in daily_data]
     revenue = [float(row[1]) for row in daily_data]
 
-    plt.figure()
+    plt.figure(figsize=(10,5))
     plt.plot(dates,revenue, marker='o')
 
-    plt.xlabel("Date")
-    plt.ylabel("Revenue")
-    plt.title("Daily Revenue Trend")
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter("%d-%b"))
+    plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
+
 
     plt.xticks(rotation=45)
     plt.tight_layout()
+
+    plt.xlabel("Date", fontsize=8)
+    plt.ylabel("Revenue", fontsize=8)
+    plt.title("Daily Revenue Trend", fontsize=14, fontweight='bold')
 
     max_revenue = max(revenue)
     min_revenue = min(revenue)

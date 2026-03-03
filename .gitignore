@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 autosight.db
 predicted_revenue.csv
+autosight.log
