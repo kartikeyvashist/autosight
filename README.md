@@ -1,6 +1,6 @@
 # 🚀 AutoSight
 
-# 📌 About The Project
+## 📌 About The Project
 
 AutoSight is a Python-based modular sales analytics engine that:
 
