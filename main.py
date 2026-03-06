@@ -32,6 +32,7 @@ def main():
         FROM sales_data
         GROUP BY product_name
         ORDER BY SUM(quantity * price) DESC;
+                   
     """)
     product_records = cursor.fetchall()
 
